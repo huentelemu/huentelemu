@@ -19,7 +19,7 @@ Before that: Senior Data Scientist at Upday (multilingual NLP at scale) and Data
 ### EU AI Act Compliance Agent
 A plan-and-execute agent that answers questions about the EU AI Act by reasoning over the official regulation corpus. Given a query, it drafts a multi-step plan, runs each step against a retrieval layer over the regulation text, and composes a grounded answer with citations back to specific articles. The focus is on traceable reasoning over a high-stakes legal corpus rather than chat-style fluency.
 
-<p align="center"><img src="readme-images/image.png" alt="EU AI Act Compliance Agent" /></p>
+<p align="center"><img src="readme-images/image.png" alt="EU AI Act Compliance Agent" width="500" /></p>
 
 → [Website](https://eu-ai-act-agent.huentelemu.com) · [Repo](https://github.com/huentelemu/eu-ai-act-agent) 
 
