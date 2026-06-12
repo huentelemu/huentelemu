@@ -1,6 +1,10 @@
 # Hi, I'm Pablo
 
-ML Engineer in Berlin, around 8 years of experience. I build production ML systems: LLM/RAG applications, MLOps platforms, recommenders, and large-scale NLP.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=198A1B&width=435&lines=Machine+Learning+Engineer;Data+Scientist;Electrical+Engineer;Astroinformatician;" />
+</a>
+
+ML Engineer in Berlin, around 8 years of experience. I build production ML systems: LLM/RAG agents, MLOps platforms, recommenders and large-scale NLP.
 
 ## What I do
 
@@ -8,7 +12,7 @@ I like the messy end-to-end of ML systems: retrieval that actually works in prod
 
 Most recently at [Pure App](https://pure.app/), where I:
 
-- Built a RAG chatbot on LangChain, LangGraph, Weaviate, and Langfuse
+- Built a RAG agent on LangChain, LangGraph, Weaviate, and Langfuse
 - Built the MLOps platform from scratch on Kubernetes and AWS, with 4Airflow, MLflow, and Prometheus/Grafana
 - Built a PyTorch GNN-based recommender
 
@@ -17,11 +21,12 @@ Before that: Senior Data Scientist at Upday (multilingual NLP at scale) and Data
 ## Featured projects
 
 ### EU AI Act Compliance Agent
-A plan-and-execute agent that answers questions about the EU AI Act by reasoning over the official regulation corpus. Given a query, it drafts a multi-step plan, runs each step against a retrieval layer over the regulation text, and composes a grounded answer with citations back to specific articles. The focus is on traceable reasoning over a high-stakes legal corpus rather than chat-style fluency.
+
+An adaptive plan-and-solve agent that answers legal research questions about the EU AI Act. Given a query, it plans a research strategy, executes it against a retrieval layer over the official regulation text, and revises that plan based on what it finds, by chasing references, reformulating queries that come back empty or finishing early when it has enough. Every claim in the final answer is cited to a specific provision and linked to the official EUR-Lex source. Built with LangGraph and traced end-to-end with Langfuse.
+
+[Website](https://eu-ai-act-agent.huentelemu.com) · [Repo](https://github.com/huentelemu/eu-ai-act-agent) 
 
 <p align="center"><img src="readme-images/image.png" alt="EU AI Act Compliance Agent" width="500" /></p>
-
-→ [Website](https://eu-ai-act-agent.huentelemu.com) · [Repo](https://github.com/huentelemu/eu-ai-act-agent) 
 
 ## Background
 
